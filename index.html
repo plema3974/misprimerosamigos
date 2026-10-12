@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Primeros Amigos · Centro de Educación Inicial · Riobamba</title>
+  <meta name="description" content="Centro de Educación Inicial Mis Primeros Amigos en Riobamba: un entorno seguro y lleno de amor donde los niños crecen, aprenden y se divierten.">
+  <link rel="icon" href="img/logo.webp">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Itim&family=M+PLUS+Rounded+1c:wght@500;700;800&family=Poppins:wght@400;600;700&family=Russo+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============ CABECERA ============ -->
+  <header class="header" id="top">
+    <div class="header__inner container">
+      <a href="#inicio" class="header__logo" aria-label="Mis Primeros Amigos – inicio">
+        <img src="img/logo.webp" alt="Centro de Educación Inicial Mis Primeros Amigos" width="104" height="104">
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#por-que">¿Por qué elegirnos?</a></li>
+          <li><a href="#programas">Programas</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
+        <a href="#contacto" class="btn btn--primary nav__cta">Agendar visita</a>
+      </nav>
+
+      <div class="header__social">
+        <a href="https://www.instagram.com/cei_mis_primeros_amigos" target="_blank" rel="noopener" aria-label="Instagram"><img src="img/icons/instagram.svg" alt="" width="22" height="22"></a>
+        <a href="https://vt.tiktok.com/ZSbTF8Mmg/" target="_blank" rel="noopener" aria-label="TikTok"><img src="img/icons/tiktok.svg" alt="" width="22" height="22"></a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <img class="hero__img" src="img/hero.jpg" alt="Niños de Mis Primeros Amigos tocando xilófonos en una presentación" width="1600" height="1162">
+      <div class="hero__overlay"></div>
+      <div class="hero__content container">
+        <h1 class="hero__title">Aquí comienzan<br>las grandes historias<br>y sus primeros amigos</h1>
+        <div class="hero__actions">
+          <a href="#contacto" class="btn btn--primary">Agendar visita</a>
+          <a href="#programas" class="btn btn--ghost">Ver programas</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ¿POR QUÉ CONFIAR? ============ -->
+    <section class="trust" id="por-que">
+      <div class="trust__waves">
+        <h2 class="trust__title">¿Por qué confiar en nosotros?</h2>
+        <img class="trust__rocket" src="img/cohete.webp" alt="" width="109" height="109" aria-hidden="true">
+      </div>
+
+      <div class="trust__grid container">
+        <article class="feature reveal">
+          <div class="feature__head">
+            <img src="img/icons/shield.svg" alt="" width="28" height="28">
+            <h3>Ambiente Seguro y Monitoreado</h3>
+          </div>
+          <p>Cámaras de seguridad para tu tranquilidad y la protección de tu pequeño.</p>
+        </article>
+        <article class="feature reveal">
+          <div class="feature__head">
+            <img src="img/icons/brain.svg" alt="" width="28" height="28">
+            <h3>Estimulación Temprana Integral</h3>
+          </div>
+          <p>Programas pensados para potenciar el desarrollo cognitivo y motriz de tu pequeño.</p>
+        </article>
+        <article class="feature reveal">
+          <div class="feature__head">
+            <img src="img/icons/utensils.svg" alt="" width="20" height="23">
+            <h3>Nutrición y Alimentación</h3>
+          </div>
+          <p>Fomentamos hábitos saludables con menús nutritivos y equilibrados.</p>
+        </article>
+        <article class="feature reveal">
+          <div class="feature__head">
+            <img src="img/icons/tree.svg" alt="" width="23" height="22">
+            <h3>Amplias Áreas Verdes</h3>
+          </div>
+          <p>Espacios al aire libre para aprender jugando y conectar con la naturaleza.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ VALORES ============ -->
+    <section class="values" id="valores">
+      <img class="values__clouds" src="img/nubes-valores.webp" alt="" aria-hidden="true" width="1600" height="295">
+      <div class="container">
+        <h2 class="section-title section-title--orange">Nuestros Valores</h2>
+        <p class="section-sub">Formamos niños felices y seguros con el corazón.</p>
+
+        <ul class="values__grid">
+          <li class="value reveal">
+            <img src="img/amor.svg" alt="Abeja abrazando un panal" width="64" height="75">
+            <span>Amor</span>
+          </li>
+          <li class="value reveal">
+            <img src="img/respeto.svg" alt="Dos zorritos abrazados" width="93" height="90">
+            <span>Respeto</span>
+          </li>
+          <li class="value reveal">
+            <img src="img/empatia.svg" alt="Mono, panda y mapache juntos" width="111" height="89">
+            <span>Empatía</span>
+          </li>
+          <li class="value reveal">
+            <img src="img/creatividad.svg" alt="Osito pintando en un caballete" width="98" height="88">
+            <span>Creatividad</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROGRAMAS ============ -->
+    <section class="programs" id="programas">
+      <div class="programs__head">
+        <h2 class="section-title section-title--blue">Nuestros Programas y Experiencias</h2>
+        <p class="section-sub section-sub--lg">Aprender sonriendo y rodeado de verdaderos amigos.</p>
+      </div>
+
+      <div class="programs__grid container">
+        <article class="program reveal">
+          <div class="program__img"><img src="img/prog-danza.jpg" alt="Niñas bailando con tutús en el escenario" loading="lazy" width="1000" height="928"></div>
+          <h3 class="program__title">Danza, Música y Expresión</h3>
+          <p class="program__text"><span class="hl">Desarrollo de ritmo y confianza:</span> Un niño que canta, baila y se expresa desarrolla su inteligencia, autoestima y amor por aprender.</p>
+          <ul class="program__list">
+            <li><img src="img/icons/music.svg" alt="" width="17" height="17">Exploración de ritmo y melodía</li>
+            <li><img src="img/icons/dance.svg" alt="" width="21" height="21">Danza y expresión corporal</li>
+            <li><img src="img/icons/brain2.svg" alt="" width="20" height="20">Coordinación y motricidad gruesa</li>
+          </ul>
+        </article>
+
+        <article class="program reveal">
+          <div class="program__img"><img src="img/prog-arte.jpg" alt="Niña pintando en el aula" loading="lazy" width="1000" height="1333"></div>
+          <h3 class="program__title">Arte y Creatividad</h3>
+          <p class="program__text"><span class="hl">Imaginación sin límites:</span> Fomentamos la imaginación y el pensamiento creativo a través de la pintura, el juego libre y la exploración de texturas.</p>
+          <ul class="program__list">
+            <li><img src="img/icons/palette.svg" alt="" width="16" height="16">Pintura y artes plásticas</li>
+            <li><img src="img/icons/puzzle.svg" alt="" width="16" height="14">Desarrollo de habilidades motoras finas</li>
+            <li><img src="img/icons/bulb.svg" alt="" width="16" height="16">Estimulación de la imaginación</li>
+          </ul>
+        </article>
+
+        <article class="program reveal">
+          <div class="program__img"><img src="img/prog-juego.jpg" alt="Niña jugando en un balancín en el área verde" loading="lazy" width="780" height="1040"></div>
+          <h3 class="program__title">Juego y Áreas Recreativas</h3>
+          <p class="program__text"><span class="hl">Espacios de diversión segura:</span> Aprender a través del juego en instalaciones diseñadas para la exploración libre y la interacción social.</p>
+          <ul class="program__list">
+            <li><img src="img/icons/ball.svg" alt="" width="16" height="16">Espectacular piscina de pelotas</li>
+            <li><img src="img/icons/leaf.svg" alt="" width="16" height="16">Áreas verdes y aire puro</li>
+            <li><img src="img/icons/users.svg" alt="" width="20" height="16">Grupos reducidos y atención personalizada</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ HORARIOS ============ -->
+    <section class="schedule" id="horarios">
+      <div class="schedule__band">
+        <div class="container">
+          <h2 class="schedule__title">Horarios y Servicios Clave</h2>
+          <div class="schedule__grid">
+            <article class="info-card reveal">
+              <img src="img/icons/clock.svg" alt="" width="43" height="43">
+              <h3>Horario de Funcionamiento</h3>
+              <p>Lunes a Viernes: 08:00 AM – 13:00 PM<br>Sede: Única en Riobamba</p>
+            </article>
+            <article class="info-card reveal">
+              <img src="img/icons/calcheck.svg" alt="" width="35" height="35">
+              <h3>Matrículas y Cupos</h3>
+              <p>Atención personalizada con cupos reducidos por grupo.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+      <figure class="schedule__photo">
+        <img src="img/grupo.jpg" alt="Niños disfrazados posando en las escaleras del centro" loading="lazy" width="1200" height="1600">
+      </figure>
+    </section>
+
+    <!-- ============ GALERÍA ============ -->
+    <section class="gallery" id="galeria">
+      <img class="gallery__train" src="img/tren.webp" alt="" aria-hidden="true" width="1200" height="213">
+      <h2 class="gallery__title">Galeria</h2>
+
+      <div class="gallery__grid container">
+        <div class="carousel reveal" aria-roledescription="carrusel" aria-label="Presentaciones de danza">
+          <div class="carousel__track" tabindex="0">
+            <button class="carousel__slide" data-full="img/galeria-1.webp" role="group" aria-roledescription="diapositiva" aria-label="1 de 5"><img src="img/galeria-1.webp" alt="Niñas en presentación de danza" loading="lazy" width="900" height="715"></button>
+            <button class="carousel__slide" data-full="img/carrusel-2.webp" role="group" aria-roledescription="diapositiva" aria-label="2 de 5"><img src="img/carrusel-2.webp" alt="Niño con corbata roja y gorro de pez en presentación" loading="lazy" width="900" height="715"></button>
+            <button class="carousel__slide" data-full="img/carrusel-3.webp" role="group" aria-roledescription="diapositiva" aria-label="3 de 5"><img src="img/carrusel-3.webp" alt="Niña con tutú azul sentada en el escenario" loading="lazy" width="900" height="715"></button>
+            <button class="carousel__slide" data-full="img/carrusel-4.webp" role="group" aria-roledescription="diapositiva" aria-label="4 de 5"><img src="img/carrusel-4.webp" alt="Niñas y niño bailando con maracas" loading="lazy" width="900" height="715"></button>
+            <button class="carousel__slide" data-full="img/carrusel-5.webp" role="group" aria-roledescription="diapositiva" aria-label="5 de 5"><img src="img/carrusel-5.webp" alt="Niño con camiseta plateada en el escenario" loading="lazy" width="900" height="715"></button>
+          </div>
+          <button class="carousel__btn carousel__btn--prev" aria-label="Foto anterior">‹</button>
+          <button class="carousel__btn carousel__btn--next" aria-label="Foto siguiente">›</button>
+          <div class="carousel__dots" role="tablist"></div>
+        </div>
+        <div class="carousel reveal" aria-roledescription="carrusel" aria-label="Campeonato de fútbol">
+          <div class="carousel__track" tabindex="0">
+            <button class="carousel__slide" data-full="img/galeria-2.webp" role="group" aria-roledescription="diapositiva" aria-label="1 de 4"><img src="img/galeria-2.webp" alt="Niños celebrando con un trofeo" loading="lazy" width="900" height="899"></button>
+            <button class="carousel__slide" data-full="img/carrusel2-2.webp" role="group" aria-roledescription="diapositiva" aria-label="2 de 4"><img src="img/carrusel2-2.webp" alt="Profesores dando indicaciones a los niños en la cancha" loading="lazy" width="900" height="899"></button>
+            <button class="carousel__slide" data-full="img/carrusel2-3.webp" role="group" aria-roledescription="diapositiva" aria-label="3 de 4"><img src="img/carrusel2-3.webp" alt="Niños corriendo en la cancha de fútbol" loading="lazy" width="900" height="899"></button>
+            <button class="carousel__slide" data-full="img/carrusel2-4.webp" role="group" aria-roledescription="diapositiva" aria-label="4 de 4"><img src="img/carrusel2-4.webp" alt="Niño sonriente con el trofeo de primer lugar" loading="lazy" width="900" height="899"></button>
+          </div>
+          <button class="carousel__btn carousel__btn--prev" aria-label="Foto anterior">‹</button>
+          <button class="carousel__btn carousel__btn--next" aria-label="Foto siguiente">›</button>
+          <div class="carousel__dots" role="tablist"></div>
+        </div>
+        <div class="carousel reveal" aria-roledescription="carrusel" aria-label="Actividades en el aula">
+          <div class="carousel__track" tabindex="0">
+            <button class="carousel__slide" data-full="img/galeria-4.webp" role="group" aria-roledescription="diapositiva" aria-label="1 de 4"><img src="img/galeria-4.webp" alt="Niño pintando un árbol en un caballete" loading="lazy" width="900" height="900"></button>
+            <button class="carousel__slide" data-full="img/carrusel3-2.webp" role="group" aria-roledescription="diapositiva" aria-label="2 de 4"><img src="img/carrusel3-2.webp" alt="Niños trabajando en manualidades en el aula" loading="lazy" width="900" height="900"></button>
+            <button class="carousel__slide" data-full="img/carrusel3-3.webp" role="group" aria-roledescription="diapositiva" aria-label="3 de 4"><img src="img/carrusel3-3.webp" alt="Niños clasificando frutas de colores en la mesa" loading="lazy" width="900" height="900"></button>
+            <button class="carousel__slide" data-full="img/carrusel3-4.webp" role="group" aria-roledescription="diapositiva" aria-label="4 de 4"><img src="img/carrusel3-4.webp" alt="Niños realizando actividades con fichas de colores" loading="lazy" width="900" height="900"></button>
+          </div>
+          <button class="carousel__btn carousel__btn--prev" aria-label="Foto anterior">‹</button>
+          <button class="carousel__btn carousel__btn--next" aria-label="Foto siguiente">›</button>
+          <div class="carousel__dots" role="tablist"></div>
+        </div>
+        <div class="carousel reveal" aria-roledescription="carrusel" aria-label="Presentación navideña">
+          <div class="carousel__track" tabindex="0">
+            <button class="carousel__slide" data-full="img/galeria-5.webp" role="group" aria-roledescription="diapositiva" aria-label="1 de 3"><img src="img/galeria-5.webp" alt="Niños con trajes navideños en una presentación" loading="lazy" width="900" height="1031"></button>
+            <button class="carousel__slide" data-full="img/carrusel4-2.webp" role="group" aria-roledescription="diapositiva" aria-label="2 de 3"><img src="img/carrusel4-2.webp" alt="Niños vestidos de ángeles tocando tambor y platillos" loading="lazy" width="900" height="1031"></button>
+            <button class="carousel__slide" data-full="img/carrusel4-3.webp" role="group" aria-roledescription="diapositiva" aria-label="3 de 3"><img src="img/carrusel4-3.webp" alt="Niño vestido de ángel en el pesebre" loading="lazy" width="900" height="1031"></button>
+          </div>
+          <button class="carousel__btn carousel__btn--prev" aria-label="Foto anterior">‹</button>
+          <button class="carousel__btn carousel__btn--next" aria-label="Foto siguiente">›</button>
+          <div class="carousel__dots" role="tablist"></div>
+        </div>
+        <div class="carousel reveal" aria-roledescription="carrusel" aria-label="Momentos felices">
+          <div class="carousel__track" tabindex="0">
+            <button class="carousel__slide" data-full="img/galeria-3.webp" role="group" aria-roledescription="diapositiva" aria-label="1 de 3"><img src="img/galeria-3.webp" alt="Grupo de niños con medallas frente al mural de valores" loading="lazy" width="900" height="895"></button>
+            <button class="carousel__slide" data-full="img/carrusel5-2.webp" role="group" aria-roledescription="diapositiva" aria-label="2 de 3"><img src="img/carrusel5-2.webp" alt="Niño jugando en un caballito del parque" loading="lazy" width="900" height="895"></button>
+            <button class="carousel__slide" data-full="img/carrusel5-3.webp" role="group" aria-roledescription="diapositiva" aria-label="3 de 3"><img src="img/carrusel5-3.webp" alt="Niño riendo a carcajadas en el aula" loading="lazy" width="900" height="895"></button>
+          </div>
+          <button class="carousel__btn carousel__btn--prev" aria-label="Foto anterior">‹</button>
+          <button class="carousel__btn carousel__btn--next" aria-label="Foto siguiente">›</button>
+          <div class="carousel__dots" role="tablist"></div>
+        </div>
+        <div class="carousel reveal" aria-roledescription="carrusel" aria-label="Pesebre y juegos">
+          <div class="carousel__track" tabindex="0">
+            <button class="carousel__slide" data-full="img/galeria-6.webp" role="group" aria-roledescription="diapositiva" aria-label="1 de 3"><img src="img/galeria-6.webp" alt="Niños disfrazados en el pesebre navideño" loading="lazy" width="888" height="1192"></button>
+            <button class="carousel__slide" data-full="img/carrusel6-2.webp" role="group" aria-roledescription="diapositiva" aria-label="2 de 3"><img src="img/carrusel6-2.webp" alt="Niños vestidos de duendes con instrumentos" loading="lazy" width="888" height="1192"></button>
+            <button class="carousel__slide" data-full="img/carrusel6-3.webp" role="group" aria-roledescription="diapositiva" aria-label="3 de 3"><img src="img/carrusel6-3.webp" alt="Niños sentados jugando en el piso del aula" loading="lazy" width="888" height="1192"></button>
+          </div>
+          <button class="carousel__btn carousel__btn--prev" aria-label="Foto anterior">‹</button>
+          <button class="carousel__btn carousel__btn--next" aria-label="Foto siguiente">›</button>
+          <div class="carousel__dots" role="tablist"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta" id="contacto">
+      <img class="cta__bears" src="img/osos.webp" alt="" aria-hidden="true" width="900" height="458">
+      <div class="cta__bg" style="background-image:url('img/cta-bg.jpg')"></div>
+      <div class="cta__content container">
+        <img class="cta__wand" src="img/varita.webp" alt="" aria-hidden="true" width="100" height="100">
+        <h2 class="cta__title">¿Listo para unirte a nuestra familia?</h2>
+        <p class="cta__text">Agenda una visita personalizada a nuestras instalaciones y descubre por qué las familias nos eligen.</p>
+        <div class="cta__actions">
+          <a class="btn btn--blue" href="https://wa.me/593987148874?text=Hola%2C%20quisiera%20agendar%20una%20visita" target="_blank" rel="noopener">
+            <img src="img/icons/calevent.svg" alt="" width="28" height="28">Agendar Visita
+          </a>
+          <a class="btn btn--light" href="tel:+593987148874">
+            <img src="img/icons/phonein.svg" alt="" width="25" height="25">Llamar Ahora
+          </a>
+        </div>
+        <ul class="cta__badges">
+          <li><span class="dot dot--blue"></span>Asesoría y visita sin compromiso</li>
+          <li><span class="dot dot--green"></span>Atención personalizada</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ TOUR ============ -->
+    <section class="tour" id="tour">
+      <div class="tour__head">
+        <h2 class="tour__title">Tour<br>de la instalación</h2>
+        <p class="tour__text">Recorre con nosotros cada rincón donde tu pequeño aprenderá y jugará. Míralo también en <a href="https://vt.tiktok.com/ZSbTF8Mmg/" target="_blank" rel="noopener">TikTok</a></p>
+      </div>
+      <div class="tour__media container">
+        <video src="video/tour.mp4" poster="img/tour-video.jpg" controls playsinline preload="none" width="478" height="850" aria-label="Recorrido por las instalaciones de Mis Primeros Amigos"></video>
+        <a class="tour__tiktok" href="https://vt.tiktok.com/ZSbTF8Mmg/" target="_blank" rel="noopener"><img src="img/icons/tiktok.svg" alt="" width="18" height="18">Ver en TikTok</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="ubicacion">
+    <svg class="footer__clouds" viewBox="0 0 1440 200" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+      <defs><filter id="nubeSombra" x="-5%" y="-20%" width="110%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#1b4f8f" flood-opacity=".18"/></filter></defs>
+      <rect width="1440" height="200" fill="#2e5aa7"/>
+      <rect width="1440" height="80" fill="#eaf3fc"/>
+      <g fill="#a3cdf5" filter="url(#nubeSombra)"><circle cx="-40" cy="127" r="68"/><circle cx="89" cy="120" r="69"/><circle cx="151" cy="137" r="33"/><circle cx="201" cy="103" r="70"/><circle cx="264" cy="115" r="33"/><circle cx="315" cy="117" r="42"/><circle cx="436" cy="92" r="50"/><circle cx="520" cy="94" r="43"/><circle cx="559" cy="105" r="24"/><circle cx="649" cy="112" r="69"/><circle cx="711" cy="133" r="33"/><circle cx="743" cy="123" r="58"/><circle cx="795" cy="132" r="31"/><circle cx="840" cy="127" r="66"/><circle cx="925" cy="112" r="56"/><circle cx="1037" cy="93" r="58"/><circle cx="1089" cy="113" r="27"/><circle cx="1123" cy="116" r="58"/><circle cx="1175" cy="124" r="35"/><circle cx="1203" cy="105" r="53"/><circle cx="1286" cy="116" r="70"/><circle cx="1391" cy="96" r="66"/><circle cx="1450" cy="107" r="39"/><circle cx="1488" cy="97" r="61"/><circle cx="1543" cy="105" r="39"/></g>
+      <g fill="#cfe5fa" filter="url(#nubeSombra)"><circle cx="-10" cy="68" r="45"/><circle cx="30" cy="77" r="20"/><circle cx="94" cy="71" r="69"/><circle cx="181" cy="92" r="66"/><circle cx="240" cy="111" r="39"/><circle cx="282" cy="67" r="62"/><circle cx="338" cy="78" r="27"/><circle cx="394" cy="61" r="57"/><circle cx="445" cy="75" r="37"/><circle cx="507" cy="62" r="44"/><circle cx="595" cy="76" r="66"/><circle cx="654" cy="93" r="34"/><circle cx="688" cy="64" r="62"/><circle cx="744" cy="75" r="35"/><circle cx="778" cy="83" r="38"/><circle cx="812" cy="98" r="18"/><circle cx="890" cy="68" r="68"/><circle cx="976" cy="79" r="47"/><circle cx="1090" cy="72" r="53"/><circle cx="1138" cy="90" r="33"/><circle cx="1177" cy="90" r="62"/><circle cx="1278" cy="66" r="41"/><circle cx="1315" cy="82" r="26"/><circle cx="1368" cy="76" r="63"/><circle cx="1425" cy="98" r="35"/><circle cx="1461" cy="64" r="49"/><circle cx="1505" cy="79" r="27"/></g>
+      <g fill="#f7fbff" filter="url(#nubeSombra)"><circle cx="-30" cy="28" r="55"/><circle cx="20" cy="50" r="34"/><circle cx="41" cy="34" r="38"/><circle cx="75" cy="45" r="17"/><circle cx="122" cy="37" r="45"/><circle cx="162" cy="47" r="21"/><circle cx="200" cy="40" r="64"/><circle cx="312" cy="48" r="59"/><circle cx="365" cy="58" r="33"/><circle cx="383" cy="37" r="51"/><circle cx="455" cy="45" r="36"/><circle cx="555" cy="49" r="38"/><circle cx="589" cy="59" r="24"/><circle cx="629" cy="43" r="50"/><circle cx="674" cy="51" r="31"/><circle cx="744" cy="51" r="40"/><circle cx="835" cy="28" r="47"/><circle cx="909" cy="53" r="63"/><circle cx="966" cy="73" r="28"/><circle cx="1010" cy="26" r="54"/><circle cx="1104" cy="44" r="48"/><circle cx="1147" cy="53" r="22"/><circle cx="1214" cy="34" r="39"/><circle cx="1305" cy="49" r="48"/><circle cx="1404" cy="40" r="50"/><circle cx="1479" cy="50" r="52"/><circle cx="1526" cy="62" r="29"/></g>
+      <rect width="1440" height="22" fill="#f7fbff"/>
+    </svg>
+    <div class="footer__inner container">
+      <div class="footer__brand">
+        <img class="footer__logo" src="img/logo.webp" alt="Mis Primeros Amigos" width="104" height="104" loading="lazy">
+        <p class="footer__tagline">Un entorno seguro y lleno de amor donde los niños crecen, aprenden y se divierten.</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/cei_mis_primeros_amigos" target="_blank" rel="noopener" aria-label="Instagram"><img src="img/icons/instagram.svg" alt="" width="27" height="27"></a>
+          <a href="https://www.facebook.com/share/1DsjjjvpKM/" target="_blank" rel="noopener" aria-label="Facebook"><img src="img/icons/facebook.svg" alt="" width="27" height="27"></a>
+        </div>
+        <p class="footer__hours">Lunes a Viernes de 08:00 a 13:00</p>
+      </div>
+
+      <div class="footer__location">
+        <h3 class="footer__label">Ubicación</h3>
+        <p class="footer__address">Duchicela y Reina Pacha, Riobamba</p>
+        <a class="footer__map" href="https://www.google.com/maps/search/?api=1&query=Duchicela+y+Reina+Pacha+Riobamba" target="_blank" rel="noopener">
+          <img src="img/mapa.png" alt="Mapa: Duchicela y Reina Pacha, Riobamba" width="288" height="288" loading="lazy">
+        </a>
+      </div>
+
+      <div class="footer__contact">
+        <h3 class="footer__heading">Contacto</h3>
+        <a class="footer__line" href="tel:+593987148874"><img src="img/icons/phone.svg" alt="" width="14" height="14">0987148874</a>
+        <a class="footer__line" href="mailto:kattia.mpa@hotmail.com"><img src="img/icons/gmail.svg" alt="" width="18" height="14">kattia.mpa@hotmail.com</a>
+      </div>
+
+      <div class="footer__links">
+        <h3 class="footer__heading">Enlaces Rápidos</h3>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#por-que">¿Por qué elegirnos?</a></li>
+          <li><a href="#programas">Programas</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__copy">© 2026 Centro de Educación Inicial Mis Primeros Amigos.<br>Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a class="whatsapp" href="https://wa.me/593987148874?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Mis%20Primeros%20Amigos" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <img src="img/icons/whatsapp.svg" alt="" width="59" height="65">
+  </a>
+
+  <!-- Lightbox galería -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Fotos ampliadas" hidden>
+    <button class="lightbox__close" aria-label="Cerrar">×</button>
+    <div class="lightbox__track" tabindex="0"></div>
+    <button class="lightbox__btn lightbox__btn--prev" aria-label="Foto anterior">‹</button>
+    <button class="lightbox__btn lightbox__btn--next" aria-label="Foto siguiente">›</button>
+    <div class="lightbox__bar">
+      <span class="lightbox__count" aria-live="polite"></span>
+      <div class="lightbox__dots"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
